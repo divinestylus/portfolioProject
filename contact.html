@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Contact Me</title>
+</head>
+<body>
+    <!-- Navigation section -->
+    <header class="header__section">
+        <h1 class="logo">Sam B. Morris</h1>
+        <span class="icon icon__menu visible"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 4H21V6H3V4ZM9 11H21V13H9V11ZM3 18H21V20H3V18Z"></path></svg></span>
+        <nav class="navbar__wrapper hidden">
+            <a href="./index.html"><button class="nav__link buttons">Home</button></a>
+            <a href="./about-me.html"><button class="nav__link buttons">About Me</button></a>
+            <a href="./portfolio.html"><button class="nav__link buttons">Portfolio</button></a>
+            <a href="./contact.html"><button class="nav__link buttons">Contact Me</button></a>
+            <a href="tel:+231776442708"><button class="nav__link buttons call-to-action"><span class="icon"></span> Book a Call</button></a>
+        </nav>
+    </header>
+    <main class="container">
+        <!-- Intro section -->
+        <section class="intro__section card card--style">
+            <img src="./assets/icons/message-2-fill.svg" alt="" class="card__icon">
+            <h3>We'd Love to Hear From You.</h3>
+            <p class="intro__paragraph">Here's what some of my satisfied clients have to say about my work</p>
+            <div class="intro__services--wrapper">
+                <div class="intro__services">
+                    <img src="./assets/icons/time-fill.svg" alt="">
+                    <p>24 / 7 Assisstance</p>
+                </div>
+
+                <div class="intro__services">
+                    <img src="./assets/icons/speed-mini-fill.svg" alt="">
+                    <p>Quick Change Resolutions</p>
+                </div>
+
+                <div class="intro__services">
+                    <img src="./assets/icons/sparkling-fill.svg" alt="">
+                    <p>Flexible Working Hours</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Form section -->
+        <section class="form-contact__section">
+            <div class="form__wrapper card card--info">
+                <form action="">
+                    <div class="input__wrapper">
+                        <input type="text" placeholder="First Name" class="first__name">
+                        <input type="text" placeholder="Last Name" class="last__name">
+                        <input type="email" placeholder="Email" class="email">
+                        <input type="tel" placeholder="Phone Number" class="phone__number ">
+                    </div>
+
+                  <div class="radio__wrapper">
+                    <legend>Why are you contacting me?</legend>
+                    <div>
+                        <div class="radio__option">
+                            <input type="checkbox" id="web__design" name="services">
+                            <label for="web__design">Web Design</label>
+                        </div>
+
+                        <div class="radio__option">
+                            <input type="checkbox" id="collaboration" name="services">
+                            <label for="collaboration">Collaboration</label>
+                        </div>
+
+                        <div class="radio__option">
+                            <input type="checkbox" id="app__design" name="services">
+                            <label for="app__design">Mobile App Design</label>
+                        </div>
+
+                        <div class="radio__option">
+                            <input type="checkbox" id="others" name="services">
+                            <label for="others">Others</label>
+                        </div>
+                    </div>
+                </div>
+
+                  <textarea placeholder="Your message here..."  name="" id="" cols="30" rows="6"></textarea>
+                  <button type="submit" class="buttons call-to-action">Send</button>
+                </form>
+            </div>
+
+            <div class="contact__wrapper">
+                <div class="contact card">
+                    <div>
+                        <p>You Can Email Me Here</p>
+                        <h4>divinestylus@gmail.com</h4>
+                    </div>
+                    <button class="buttons buttons--mini"><span class="icon icon__right-arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg></span></button>
+                </div>
+
+                <div class="contact card">
+                    <div>
+                        <p>Give Me A Call On</p>
+                        <h4>+231776442708</h4>
+                    </div>
+                    <a href="tel:+231776442708"><button class="buttons buttons--mini"><span class="icon icon__right-arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg></span></button></a>
+                </div>
+ 
+                <div class="contact card">
+                    <div>
+                        <p>Location</p>
+                        <h4>Monrovia, Liberia</h4>
+                    </div>
+                    <button class="buttons buttons--mini"><span class="icon icon__right-arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg></span></button>
+                </div>
+            </div>
+
+            <div>
+                <h4>My Social Profiles</h4>
+                <div class="social-media__wrapper social-media__bg">
+                    <img src="./assets/icons/linkedin-box-fill.svg" alt="">
+                    <img src="./assets/icons/behance-fill.svg" alt="">
+                    <img src="./assets/icons/github-fill.svg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ section -->
+        <section class="faq__section">
+            <h3>Frequently Asked Questions</h3>
+            <p class="faq__paragraph">Here are answers to some common questions</p>
+            <div class="faq__wrapper">
+                <div class="faq__card">
+                    <div class="card__heading__wrapper">
+                        <h4 class="card__heading">Can you work with  clients remotely?</h4>
+                        <button class="buttons buttons--mini button--active"><span class="icon__fag--active"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.0007 10.5865L16.9504 5.63672L18.3646 7.05093L13.4149 12.0007L18.3646 16.9504L16.9504 18.3646L12.0007 13.4149L7.05093 18.3646L5.63672 16.9504L10.5865 12.0007L5.63672 7.05093L7.05093 5.63672L12.0007 10.5865Z"></path></svg></span></button>
+                    </div>
+                    <p class="card__paragraph">Absolutely! I have experience working with clients from all around the world. Through effective communication channels such as email, video calls, and project management tools, I ensure seamless collaboration regardless of geographical location.</p>
+                </div>
+
+                <div class="faq__card">
+                    <div class="card__heading__wrapper">
+                        <h4 class="card__heading">How long does it typically take to complete a web design project?</h4>
+                        <button class="buttons buttons--mini"><span class="icon__fag"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path></svg></span></button>
+                    </div>
+                </div>
+
+                <div class="faq__card">
+                    <div class="card__heading__wrapper">
+                        <h4 class="card__heading">Do you offer website maintenance services?</h4>
+                        <button class="buttons buttons--mini"><span class="icon__fag"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path></svg></span></button>
+                    </div>
+                </div>
+
+                <div class="faq__card">
+                    <div class="card__heading__wrapper">
+                        <h4 class="card__heading">Can you optimize my website for search engines?</h4>
+                        <button class="buttons buttons--mini"><span class="icon__fag"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path></svg></span></button>
+                    </div>
+                </div>
+
+                <div class="faq__card">
+                    <div class="card__heading__wrapper">
+                        <h4 class="card__heading">Can you integrate third-party tools or platforms into my website?</h4>
+                        <button class="buttons buttons--mini"><span class="icon__fag"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path></svg></span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card--style">
+                <img src="./assets/icons/star-s-fill.svg" alt="" class="card__icon">
+                <h4 class="card__heading">Still have any Questions?</h4>
+                <p class="card__paragraph">Proficiency in the fundamental principles of design, such as layout, color theory, typography, and visual hierarchy.</p>
+                <a href="./contact.html"><button class="buttons call-to-action">Contact Me</button></a>
+            </div>
+        </section>
+    </main>
+    <!-- Footer section -->
+    <footer class="footer__section">
+        <div class="footer__wrapper">
+            <h1 class="logo">Sam B. Morris</h1>
+            <div class="social-media__wrapper">
+                <img src="./assets/icons/linkedin-box-fill.svg" alt="">
+                <img src="./assets/icons/behance-fill.svg" alt="">
+                <img src="./assets/icons/github-fill.svg" alt="">
+            </div>
+            <nav class="navbar__wrapper--footer">
+                <a href="./index.html"><button class="nav__link buttons">Home</button></a>
+                <a href="./about-me.html"><button class="nav__link buttons">About Me</button></a>
+                <a href="./portfolio.html"><button class="nav__link buttons">Portfolio</button></a>
+                <a href="./contact.html"><button class="nav__link buttons">Contact Me</button></a>
+            </nav>
+        </div>
+        <div class="contact__wrapper hidden">
+            <div class="email">
+                <p><span class="icon"></span>divinestylus@gmail.com</p>
+            </div>
+            <div class="phone">
+                <p><span class="icon"></span>+231776442708</p>
+            </div>
+            <div class="location">
+                <p><span class="icon"></span>Monrovia, Liberia</p>
+            </div>
+        </div>
+        <p class="copyright">Copyright &copy;<span class="current__year">2023</span> Sam B. Morris. All rights reserved.</p>
+    </footer>
+</body>
+</html>
